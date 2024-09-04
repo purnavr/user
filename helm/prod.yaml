@@ -1,10 +1,10 @@
-#env: prod
+env: prod
 component: user
 params: "DOCUMENTDB:prod.user.mongo,REDIS_HOST:prod.elasticache.endpoint,MONGO_URL:prod.docdb.url.user"
 
-#schemaLoadJob:
-#  # Specifies whether a service account should be created
-#  create: true
-#  type: mongo
+schemaLoadJob:
+  # Specifies whether a service account should be created
+  create: true
+  type: mongo
 
 
